@@ -33,6 +33,7 @@ namespace Markdig.Renderers
             ObjectRenderers.Add(new HtmlBlockRenderer());
             ObjectRenderers.Add(new ParagraphRenderer());
             ObjectRenderers.Add(new QuoteBlockRenderer());
+            ObjectRenderers.Add(new HintBlockRenderer());
             ObjectRenderers.Add(new ThematicBreakRenderer());
 
             // Default inline renderers

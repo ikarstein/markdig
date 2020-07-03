@@ -29,6 +29,7 @@ namespace Markdig
                 new ThematicBreakParser(),
                 new HeadingBlockParser(),
                 new QuoteBlockParser(),
+                new HintBlockParser(),
                 new ListBlockParser(),
 
                 new HtmlBlockParser(),
