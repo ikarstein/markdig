@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{061866E2-005C-4D13-A338-EA464BBEC60F}"
 	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
 		..\changelog.md = ..\changelog.md
 		..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
 		..\license.txt = ..\license.txt
 		..\readme.md = ..\readme.md
-		..\.editorconfig = ..\.editorconfig
-		..\.gitattributes = ..\.gitattributes
-		..\.gitignore = ..\.gitignore
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdig", "Markdig\Markdig.csproj", "{8A58A7E2-627C-4F41-933F-5AC92ADFAB48}"
@@ -33,6 +33,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mdtoc", "mdtoc\mdtoc.csproj", "{E3CDFF0F-5BFC-42E9-BDBA-2797651900A2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFileGen", "SpecFileGen\SpecFileGen.csproj", "{DB6E2ED5-7884-4E97-84AF-35E2480CF685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-ingo", "test-ingo\test-ingo.csproj", "{AE5A0ECE-D562-4F27-BA33-2428134C2138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{DB6E2ED5-7884-4E97-84AF-35E2480CF685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6E2ED5-7884-4E97-84AF-35E2480CF685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6E2ED5-7884-4E97-84AF-35E2480CF685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5A0ECE-D562-4F27-BA33-2428134C2138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5A0ECE-D562-4F27-BA33-2428134C2138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5A0ECE-D562-4F27-BA33-2428134C2138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5A0ECE-D562-4F27-BA33-2428134C2138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
