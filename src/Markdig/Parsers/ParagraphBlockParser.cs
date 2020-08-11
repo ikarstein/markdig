@@ -28,6 +28,7 @@ namespace Markdig.Parsers
                 Column = processor.Column,
                 Span = new SourceSpan(processor.Line.Start, processor.Line.End)
             });
+
             return BlockState.Continue;
         }
 
