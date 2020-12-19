@@ -59,6 +59,7 @@ If you are looking for support for an old .NET Framework 3.5 or 4.0, you can dow
 - [**WPF/XAML Markdown Renderer**: `markdig.wpf`](https://github.com/Kryptos-FR/markdig.wpf)
 - [**WPF/XAML Markdown Renderer**: `Neo.Markdig.Xaml`](https://github.com/neolithos/NeoMarkdigXaml)
 - [**Syntax highlighting**: `Markdig.SyntaxHighlighting`](https://github.com/RichardSlater/Markdig.SyntaxHighlighting)
+- [**Syntax highlighting using Prism.js**: `WebStoating.Markdig.Prism`](https://github.com/ilich/Markdig.Prism)
 - [**Embedded C# scripting**: `Markdig.Extensions.ScriptCs`](https://github.com/macaba/Markdig.Extensions.ScriptCs)
 
 ## Documentation
@@ -93,6 +94,8 @@ In order to activate most of all advanced extensions (except Emoji, SoftLine as 
 var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
 var result = Markdown.ToHtml("This is a text with some *emphasis*", pipeline);
 ```
+
+[Try it online!](https://dotnetfiddle.net/GoZXyI)
 
 You can have a look at the [MarkdownExtensions](https://github.com/lunet-io/markdig/blob/master/src/Markdig/MarkdownExtensions.cs) that describes all actionable extensions (by modifying the MarkdownPipeline)
 
